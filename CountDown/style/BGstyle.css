@@ -1,0 +1,30 @@
+body {
+  display: flex;
+  /* background-color: darkcyan; */
+
+  width: 100vw;
+  height: 100vh;
+}
+
+#topImg {
+  position: absolute;
+  top: 0px;
+  width: 100vw;
+  z-index: 0;
+}
+
+#rocketImg {
+  position: absolute;
+  right: 14px;
+  width: 50%;
+  min-width: 150px;
+  align-self: center;
+  z-index: 1;
+}
+
+#bottomImg {
+  position: absolute;
+  bottom: 0px;
+  width: 100vw;
+  z-index: 0;
+}
