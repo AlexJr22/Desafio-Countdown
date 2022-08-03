@@ -1,23 +1,56 @@
 #CountDown {
-  display: flex;
-  background-color: rgb(124, 222, 240, 0.3);
+  position: relative;
+  background-color: rgb(154, 240, 255, .8);
   box-shadow: 0px 0px 9px rgba(0, 0, 0, 0.356);
   border-radius: 9px;
-  height: 300px;
+  height: 200px;
   width: 400px;
   margin-left: 2%;
-  justify-content: space-around;
-  align-items: center;
   align-self: center;
   z-index: 2;
 }
+
+#CountDown > h1 {
+  color: #6C63FF;
+  width: 100%;
+  text-align: center;
+  margin-top: 21px;
+  font-size: 2em;
+}
+
+#Timer {
+  position: absolute;
+  bottom: 0px;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
 .time {
+  display: flex;
+  color: black;
+  height: 120px;
+  width: 100px;
+  flex-wrap: wrap;
+  margin-bottom: 9px;
+}
+
+.date {
+  width: 100%;
+  height: 20px;
+  text-align: center;
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
+.count {
+  display: flex;
   background-color: #6C63FF;
   color: #fff;
-  display: flex;
+  font-size: 1.6em;
   height: 100px;
   width: 100px;
-  border-radius: 50%;
+  border-radius: 21px;
   justify-content: center;
   align-items: center;
 }
