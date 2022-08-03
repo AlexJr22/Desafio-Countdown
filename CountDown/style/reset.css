@@ -9,10 +9,10 @@ body {
   display: flex;
   width: 100vw;
   height: 100vh;
-  background-color: rgb(25, 25, 35);
-  background-image: url(../images/top-image.svg ),
+  background-image: 
+  url(../images/rocket.svg ),
   url(../images/bottom-image.svg ),
-  url(../images/rocket.svg );
+  url(../images/top-image.svg );
   background-repeat: no-repeat;
-  background-position: top, bottom, center right;
+  background-position: center right, bottom, top;
 }
