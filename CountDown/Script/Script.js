@@ -3,9 +3,9 @@ const minuto = document.getElementById('minuto')
 const segundo = document.getElementById('segundo')
 
 
-let Segundo = 10;
-let Minuto = 1;
-let Hora = 7;
+let Segundo = 60;
+let Minuto = 2;
+let Hora = 2;
 
 function countDown() {
   segundo.innerHTML = Segundo
@@ -15,16 +15,17 @@ function countDown() {
   if(Segundo) {
     Segundo--
     segundo.innerHTML = Segundo
-    if(Segundo == 1 && Minuto > 0) {
+    if(Segundo == 0 && Minuto > 0) {
       Minuto--
-      Segundo = 59
+      Segundo = 60
     }
-  } 
-  if(Minuto == 0 && Hora == 0) {
-    Minuto = 59
-    Hora--
+    if( Segundo == 0 && Minuto == 0 && Hora > 0) {
+      Hora--
+      Minuto = 59
+      Segundo = 60
+    }
   }
 
 }
 
-setInterval(countDown, 1000)
+setInterval(countDown, 100)
