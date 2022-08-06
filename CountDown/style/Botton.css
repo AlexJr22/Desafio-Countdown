@@ -1,5 +1,6 @@
 #inscreve {
   position: absolute;
+  color: #fff;
   background-color: #6C63FF;
   height: 30px;
   width: 150px;
@@ -12,7 +13,7 @@
 }
 
 #inscreve:active {
-  background-color: #6b63ffab;
+  background-color: #918bfd;
 }
 
 #inscreve:hover {
