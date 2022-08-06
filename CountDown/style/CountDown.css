@@ -41,6 +41,13 @@
   text-align: center;
   font-size: .8em;
   font-weight: bold;
+  transition: 200ms;
+}
+
+.count:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+  transition: 200ms;
 }
 
 .count {
