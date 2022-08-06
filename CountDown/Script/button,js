@@ -1,0 +1,7 @@
+function inscrevaSe() {
+  window.alert('Você já está na lista de espera!!')
+}
+
+function Wait() {
+  window.alert('Espere mais um pouco')
+}

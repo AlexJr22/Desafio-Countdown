@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="./style/Botton.css">
   
 </head>
-<body onload="countDown()">
+<body>
 
   <div id="CountDown" > <!-- Timer -->
 
@@ -20,23 +20,24 @@
     <div id="Timer">
       <div class="time">
         <p class="date">Horas</p>
-        <p class="count" id="hora">00</p>
+        <p onclick="Wait()" class="count" id="hora">00</p>
       </div>
   
       <div class="time">
         <p class="date">Minutos</p>
-        <p class="count" id="minuto">00</p>
+        <p onclick="Wait()" class="count" id="minuto">00</p>
       </div>
   
       <div class="time">
         <p class="date">Segundos</p>
-        <p class="count" id="segundo">00</p>
+        <p onclick="Wait()" class="count" id="segundo">00</p>
       </div>
     </div>
   </div>
   
-  <button id="inscreve">Inscresa-se</button>
+  <button onclick="inscrevaSe()" id="inscreve">Inscresa-se</button>
   
   <script src="Script/Script.js"></script>
+  <script src="Script/button,js"></script>
 </body>
 </html>

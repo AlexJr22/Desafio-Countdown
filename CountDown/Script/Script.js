@@ -2,7 +2,6 @@ const hora = document.getElementById('hora')
 const minuto = document.getElementById('minuto')
 const segundo = document.getElementById('segundo')
 const timer = document.getElementById('CountDown')
-const botton = document.getElementById('inscreve')
 
 let Segundo = 60;
 let Minuto = 2;
