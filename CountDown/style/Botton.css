@@ -13,5 +13,8 @@
 
 #inscreve:active {
   background-color: #6b63ffab;
+}
 
+#inscreve:hover {
+  cursor: pointer;
 }
